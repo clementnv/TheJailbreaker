@@ -1,47 +1,77 @@
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 18A5787E
-/// @DnDArgument : "code" "switch(last_direction)$(13_10){$(13_10)case 0:$(13_10)	if (!place_meeting(x-walkspd-60, y, o_Wall)) {$(13_10)		x -= walkspd;$(13_10)		image_angle = 90;$(13_10)		state = "walk";$(13_10)	} else {$(13_10)		last_direction = irandom(3);$(13_10)	}$(13_10)	break;$(13_10)case 1:$(13_10)	if (!place_meeting(x+walkspd+60, y, o_Wall)) {$(13_10)		x += walkspd;$(13_10)		image_angle = -90;$(13_10)		state = "walk";$(13_10)	} else {$(13_10)		last_direction = irandom(3);$(13_10)	}$(13_10)	break;$(13_10)case 2:$(13_10)	if (!place_meeting(x, y-walkspd-60, o_Wall)) {$(13_10)		y -= walkspd;$(13_10)		image_angle = 0;$(13_10)		state = "walk";$(13_10)	} else {$(13_10)		last_direction = irandom(3);$(13_10)	} $(13_10)	break;$(13_10)case 3:$(13_10)	if (!place_meeting(x, y+walkspd+60, o_Wall)) {$(13_10)		y += walkspd;$(13_10)		image_angle = 180;$(13_10)		state = "walk";$(13_10)	} else {$(13_10)		last_direction = irandom(3);$(13_10)	}$(13_10)	break;$(13_10)default: $(13_10)	x=x;$(13_10)}$(13_10)$(13_10)if (o_Player.state == "attack") {$(13_10)	if (image_angle == -90) {$(13_10)		if(place_meeting(x-walkspd, y, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 90) {$(13_10)		if(place_meeting(x+walkspd, y, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 0) {$(13_10)		if (place_meeting(x, y+walkspd, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 180) {$(13_10)		if (place_meeting(x, y-walkspd, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	}$(13_10)}"
-switch(last_direction)
-{
-case 0:
-	if (!place_meeting(x-walkspd-60, y, o_Wall)) {
-		x -= walkspd;
-		image_angle = 90;
-		state = "walk";
-	} else {
-		last_direction = irandom(3);
+/// @DnDArgument : "code" "if (distance_to_object(o_Player) > 100) {$(13_10)	switch(last_direction)$(13_10)	{$(13_10)	case 0:$(13_10)		if (!place_meeting(x-walkspd-60, y, o_Wall)) {$(13_10)			x -= walkspd;$(13_10)			image_angle = 90;$(13_10)			state = "walk";$(13_10)		} else {$(13_10)			last_direction = irandom(3);$(13_10)		}$(13_10)		break;$(13_10)	case 1:$(13_10)		if (!place_meeting(x+walkspd+60, y, o_Wall)) {$(13_10)			x += walkspd;$(13_10)			image_angle = -90;$(13_10)			state = "walk";$(13_10)		} else {$(13_10)			last_direction = irandom(3);$(13_10)		}$(13_10)		break;$(13_10)	case 2:$(13_10)		if (!place_meeting(x, y-walkspd-60, o_Wall)) {$(13_10)			y -= walkspd;$(13_10)			image_angle = 0;$(13_10)			state = "walk";$(13_10)		} else {$(13_10)			last_direction = irandom(3);$(13_10)		} $(13_10)		break;$(13_10)	case 3:$(13_10)		if (!place_meeting(x, y+walkspd+60, o_Wall)) {$(13_10)			y += walkspd;$(13_10)			image_angle = 180;$(13_10)			state = "walk";$(13_10)		} else {$(13_10)			last_direction = irandom(3);$(13_10)		}$(13_10)		break;$(13_10)	default: $(13_10)		x=x;$(13_10)	}$(13_10)} else {$(13_10)	distx = o_Player.x - x;$(13_10)	disty = o_Player.y - y;$(13_10)	show_debug_message("distx")$(13_10)	show_debug_message(distx)$(13_10)	show_debug_message("disty")$(13_10)	show_debug_message(disty)$(13_10)	$(13_10)	if (distx > 10 && disty > 10) {$(13_10)		image_angle = 225;$(13_10)		x+=walkspd/2;$(13_10)		y+=walkspd/2;$(13_10)	} else if (distx > 10 && disty < 10) {$(13_10)		image_angle = -45;$(13_10)		x+=walkspd/2;$(13_10)		y-=walkspd/2;$(13_10)	} else if (distx < 10 && disty > 10) {$(13_10)		image_angle = 145;$(13_10)		x-=walkspd/2;$(13_10)		y+=walkspd/2;$(13_10)	} else if (distx < 10 && disty < 10) {$(13_10)		image_angle = 45;$(13_10)		x-=walkspd/2;$(13_10)		y-=walkspd/2;$(13_10)	} $(13_10)$(13_10)$(13_10)	$(13_10)}$(13_10)$(13_10)if (o_Player.state == "attack") {$(13_10)	if (image_angle == -90) {$(13_10)		if(place_meeting(x-walkspd, y, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 90) {$(13_10)		if(place_meeting(x+walkspd, y, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 0) {$(13_10)		if (place_meeting(x, y+walkspd, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	} else if(image_angle == 180) {$(13_10)		if (place_meeting(x, y-walkspd, o_Player)) {$(13_10)			hp -= 5;$(13_10)		}$(13_10)	}$(13_10)}"
+if (distance_to_object(o_Player) > 100) {
+	switch(last_direction)
+	{
+	case 0:
+		if (!place_meeting(x-walkspd-60, y, o_Wall)) {
+			x -= walkspd;
+			image_angle = 90;
+			state = "walk";
+		} else {
+			last_direction = irandom(3);
+		}
+		break;
+	case 1:
+		if (!place_meeting(x+walkspd+60, y, o_Wall)) {
+			x += walkspd;
+			image_angle = -90;
+			state = "walk";
+		} else {
+			last_direction = irandom(3);
+		}
+		break;
+	case 2:
+		if (!place_meeting(x, y-walkspd-60, o_Wall)) {
+			y -= walkspd;
+			image_angle = 0;
+			state = "walk";
+		} else {
+			last_direction = irandom(3);
+		} 
+		break;
+	case 3:
+		if (!place_meeting(x, y+walkspd+60, o_Wall)) {
+			y += walkspd;
+			image_angle = 180;
+			state = "walk";
+		} else {
+			last_direction = irandom(3);
+		}
+		break;
+	default: 
+		x=x;
 	}
-	break;
-case 1:
-	if (!place_meeting(x+walkspd+60, y, o_Wall)) {
-		x += walkspd;
-		image_angle = -90;
-		state = "walk";
-	} else {
-		last_direction = irandom(3);
-	}
-	break;
-case 2:
-	if (!place_meeting(x, y-walkspd-60, o_Wall)) {
-		y -= walkspd;
-		image_angle = 0;
-		state = "walk";
-	} else {
-		last_direction = irandom(3);
+} else {
+	distx = o_Player.x - x;
+	disty = o_Player.y - y;
+	show_debug_message("distx")
+	show_debug_message(distx)
+	show_debug_message("disty")
+	show_debug_message(disty)
+	
+	if (distx > 10 && disty > 10) {
+		image_angle = 225;
+		x+=walkspd/2;
+		y+=walkspd/2;
+	} else if (distx > 10 && disty < 10) {
+		image_angle = -45;
+		x+=walkspd/2;
+		y-=walkspd/2;
+	} else if (distx < 10 && disty > 10) {
+		image_angle = 145;
+		x-=walkspd/2;
+		y+=walkspd/2;
+	} else if (distx < 10 && disty < 10) {
+		image_angle = 45;
+		x-=walkspd/2;
+		y-=walkspd/2;
 	} 
-	break;
-case 3:
-	if (!place_meeting(x, y+walkspd+60, o_Wall)) {
-		y += walkspd;
-		image_angle = 180;
-		state = "walk";
-	} else {
-		last_direction = irandom(3);
-	}
-	break;
-default: 
-	x=x;
+
+
+	
 }
 
 if (o_Player.state == "attack") {
