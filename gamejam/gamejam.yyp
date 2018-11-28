@@ -55,6 +55,22 @@
             }
         },
         {
+            "Key": "2c31088d-0087-4565-a0e8-fcfb2ee63ad7",
+            "Value": {
+                "id": "d2fba46b-67cd-4131-a1d5-afea52175187",
+                "resourcePath": "sprites\\s_Prisonnier_Walk_Cut\\s_Prisonnier_Walk_Cut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2dd7c534-c9ab-4db8-8337-6794ab85cee9",
+            "Value": {
+                "id": "3d5899de-dbfa-4468-be95-ae2e60717df1",
+                "resourcePath": "sprites\\s_Policier_Walk\\s_Policier_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "31e62f3f-eeb5-48ea-ae57-6f91fbaac8e0",
             "Value": {
                 "id": "ab3e7e6d-0edd-4016-8747-3dce301e91f6",
@@ -159,6 +175,14 @@
             }
         },
         {
+            "Key": "885a4f68-88aa-494e-b8f4-3a2a57593c5c",
+            "Value": {
+                "id": "efb3de41-3751-4575-858c-6e68e77a4cc4",
+                "resourcePath": "sprites\\s_Policier_Idle\\s_Policier_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "97b6ff41-1a34-4958-b58e-1e4211156aa3",
             "Value": {
                 "id": "b7c5f134-026d-47dd-8b87-8bcfbdaba732",
@@ -215,6 +239,14 @@
             }
         },
         {
+            "Key": "b7333eea-b43e-4e27-9af2-18db3d95632e",
+            "Value": {
+                "id": "03a3e166-bd4f-4828-a68a-aa37249a8da9",
+                "resourcePath": "sprites\\HommeBase\\HommeBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "bdfb59ee-1014-4247-be83-8519cf548a53",
             "Value": {
                 "id": "914936ef-eaaa-4640-ab00-80b2b9a99b6f",
@@ -268,6 +300,30 @@
                 "id": "313356e7-5fb1-4cb2-8522-9f60820785fa",
                 "resourcePath": "views\\d64ea537-c38a-47ad-9568-ea9d2b00132d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "d710138c-e545-41a1-841a-9feae195f6c7",
+            "Value": {
+                "id": "63eb01c4-889a-4257-afc4-50ceb5735e22",
+                "resourcePath": "sprites\\s_Prisonnier_Mattraque_Attack\\s_Prisonnier_Mattraque_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dde89579-5a29-403d-95ca-1b2aa7a7fa0a",
+            "Value": {
+                "id": "9d71a98e-f252-4210-908c-34723b2b9aa2",
+                "resourcePath": "sprites\\s_Prisonnier_Idle\\s_Prisonnier_Idle.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e7ac73ad-d001-420e-9b26-ed89ef3ce56a",
+            "Value": {
+                "id": "cfc676b9-1577-400a-9ffe-b53fa7bfbf23",
+                "resourcePath": "sprites\\s_Prisonnier_Walk\\s_Prisonnier_Walk.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
