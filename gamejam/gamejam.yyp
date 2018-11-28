@@ -55,6 +55,14 @@
             }
         },
         {
+            "Key": "1c3a8ca7-7b89-4f6a-892b-4e0741090c70",
+            "Value": {
+                "id": "4e0fb854-bcc1-4ec2-87aa-a52cabb0d202",
+                "resourcePath": "sprites\\s_Policier_Touch\\s_Policier_Touch.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bde942e-263f-4e40-b80f-58f95bc0d79b",
             "Value": {
                 "id": "5a355858-a2ff-48d4-b2db-c89998a3649d",
@@ -267,6 +275,14 @@
             "Value": {
                 "id": "03a3e166-bd4f-4828-a68a-aa37249a8da9",
                 "resourcePath": "sprites\\HommeBase\\HommeBase.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b9ec5d9e-6652-44d4-8639-6001e3ced880",
+            "Value": {
+                "id": "95678a85-680a-4d87-9575-1738d2c232f7",
+                "resourcePath": "sprites\\s_Policier_Dead\\s_Policier_Dead.yy",
                 "resourceType": "GMSprite"
             }
         },
