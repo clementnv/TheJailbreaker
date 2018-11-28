@@ -47,6 +47,14 @@
             }
         },
         {
+            "Key": "1935fe1a-0edd-4dc3-b48b-800439acf972",
+            "Value": {
+                "id": "404cc811-2663-493b-b797-863214417701",
+                "resourcePath": "sprites\\s_Key\\s_Key.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bde942e-263f-4e40-b80f-58f95bc0d79b",
             "Value": {
                 "id": "5a355858-a2ff-48d4-b2db-c89998a3649d",
@@ -228,6 +236,14 @@
                 "id": "5023c03f-b04d-42f8-bf22-955879270089",
                 "resourcePath": "objects\\o_Key\\o_Key.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ab26ecf2-2c5b-49ef-a606-cc423555d59a",
+            "Value": {
+                "id": "36d61303-9a46-4d5b-9b14-78ac5c9ecff9",
+                "resourcePath": "sprites\\s_Policier_Mattraque_Attack\\s_Policier_Mattraque_Attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
