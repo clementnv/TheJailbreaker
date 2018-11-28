@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "b6ab6a79-01ed-41f8-8a90-bf6873338dd6",
+            "Value": {
+                "id": "72a719d6-52c3-4066-bb94-390e56bf3fac",
+                "resourcePath": "objects\\o_Health\\o_Health.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b7333eea-b43e-4e27-9af2-18db3d95632e",
             "Value": {
                 "id": "03a3e166-bd4f-4828-a68a-aa37249a8da9",
