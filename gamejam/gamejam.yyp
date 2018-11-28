@@ -255,6 +255,14 @@
             }
         },
         {
+            "Key": "accd1b19-b1d2-407b-b629-847f5a80d422",
+            "Value": {
+                "id": "5f681b3d-0e17-4da4-a084-3f16975b65a0",
+                "resourcePath": "sprites\\s_Prisonnier_Dead\\s_Prisonnier_Dead.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "af2eabc5-d513-473e-88f5-22be9344fc0c",
             "Value": {
                 "id": "fc548d70-81bf-428c-b915-431ab5012898",
