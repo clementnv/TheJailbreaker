@@ -79,10 +79,26 @@
             }
         },
         {
+            "Key": "1ea1be78-3ecf-4208-9637-3bcef701f936",
+            "Value": {
+                "id": "cf7cc1cb-5dd4-4e9c-a0ee-06df25af5186",
+                "resourcePath": "sprites\\s_Prisonnier_Cut_Attack\\s_Prisonnier_Cut_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2bde942e-263f-4e40-b80f-58f95bc0d79b",
             "Value": {
                 "id": "5a355858-a2ff-48d4-b2db-c89998a3649d",
                 "resourcePath": "sprites\\mur2\\mur2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2c0ca2f4-11c0-4637-9278-00dc65e4c1f6",
+            "Value": {
+                "id": "e05564ba-b8a9-4dc8-b1df-0e1c26a87fa7",
+                "resourcePath": "sprites\\s_Gun\\s_Gun.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -127,6 +143,14 @@
             }
         },
         {
+            "Key": "41200fc7-c642-4be6-8b11-b39b9379fa22",
+            "Value": {
+                "id": "b989e574-cd7e-4a14-ad6a-6f0f3b11f306",
+                "resourcePath": "sprites\\s_blank\\s_blank.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "41b16688-27f3-41fe-8c71-11d7b1d265fa",
             "Value": {
                 "id": "df20a2a5-b2b9-40d9-9da3-53909a79ebe3",
@@ -140,6 +164,14 @@
                 "id": "39e21827-8266-45e2-8e15-29d0adbb855d",
                 "resourcePath": "views\\4c5c7207-1321-4ed1-b369-4637958ee0a1.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4cd21720-e621-4db6-be08-6223426326b0",
+            "Value": {
+                "id": "f5039c0b-6e6d-4552-bbe0-a097a9f90188",
+                "resourcePath": "sprites\\s_Health_Bonus\\s_Health_Bonus.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -207,6 +239,14 @@
             }
         },
         {
+            "Key": "823ba2a9-6987-4f6c-be45-31ca9548f5c2",
+            "Value": {
+                "id": "5929540b-ae9d-4b0a-8430-92d58c315603",
+                "resourcePath": "objects\\o_Bullet_Player\\o_Bullet_Player.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "84e8f544-e773-484b-b244-560e555fd5f6",
             "Value": {
                 "id": "94a76e8d-199a-467b-be30-c2fef518dc88",
@@ -228,6 +268,22 @@
                 "id": "efb3de41-3751-4575-858c-6e68e77a4cc4",
                 "resourcePath": "sprites\\s_Policier_Idle\\s_Policier_Idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "93a25a67-bc93-4b1b-9fae-16f2b04035eb",
+            "Value": {
+                "id": "eb12b347-477c-470e-a963-fcd32c6dbe78",
+                "resourcePath": "objects\\o_Gun\\o_Gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "945eb76d-e077-4664-a1fc-f67d2b343902",
+            "Value": {
+                "id": "75d27057-f3cd-4a1d-bd32-460213a66f15",
+                "resourcePath": "objects\\o_Enemy_Gun\\o_Enemy_Gun.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -351,14 +407,6 @@
             }
         },
         {
-            "Key": "c3a1bc47-02d9-4ef3-ab83-27b18400f676",
-            "Value": {
-                "id": "afb5fb99-c904-4784-bbc6-4d974bf6749a",
-                "resourcePath": "objects\\o_Enemy_Gun\\o_Enemy_Gun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c49bda8c-3258-4f63-adfd-2ea697a36832",
             "Value": {
                 "id": "b53473fd-c8df-419c-82ba-567e1d9da72b",
@@ -399,6 +447,14 @@
             }
         },
         {
+            "Key": "d1ac0e0f-82c0-4b13-aac3-a003ed7b9a60",
+            "Value": {
+                "id": "460b7b08-5740-41da-8f41-fa9af96842e9",
+                "resourcePath": "objects\\o_Health_Bonus\\o_Health_Bonus.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "d64ea537-c38a-47ad-9568-ea9d2b00132d",
             "Value": {
                 "id": "313356e7-5fb1-4cb2-8522-9f60820785fa",
@@ -431,6 +487,14 @@
             }
         },
         {
+            "Key": "e971b2e9-dfa5-4b74-bc14-42dcafea36e1",
+            "Value": {
+                "id": "cbe288fd-67fe-4ef7-99e4-8750467fe313",
+                "resourcePath": "sprites\\s_Prisonnier_Gun_Attack\\s_Prisonnier_Gun_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "effb2f5c-3527-4f65-8242-93f6609d196d",
             "Value": {
                 "id": "d602189b-2c0f-4448-a37a-098f50129552",
@@ -439,11 +503,27 @@
             }
         },
         {
+            "Key": "f0d1e439-0132-4262-9eba-1ae394fa48a2",
+            "Value": {
+                "id": "1016dbe0-48a1-4f5e-afe8-b205a3d59deb",
+                "resourcePath": "sprites\\s_Prisonnier_Walk_Gun\\s_Prisonnier_Walk_Gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f418569b-3bdd-4706-a0e4-364317f54032",
             "Value": {
                 "id": "c796da4d-f18a-4455-a09e-1df352d0a3f0",
                 "resourcePath": "options\\mac\\options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f9844c4a-43a0-40c0-b315-90a0ba194ae1",
+            "Value": {
+                "id": "ede88bc6-0025-4142-b4fd-4a54a5c2134b",
+                "resourcePath": "sprites\\s_Bullet\\s_Bullet.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
