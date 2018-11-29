@@ -1,8 +1,8 @@
 {
-    "id": "88212fa6-d02b-459f-b0db-8c2c3d27e147",
+    "id": "02000500-eb3c-4523-8f4c-c8fc47e1960c",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Out",
+    "name": "o_Clay",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "97b6ff41-1a34-4958-b58e-1e4211156aa3",
+    "spriteId": "6e35038c-f3b1-4707-9b25-dc0abcabbe82",
     "visible": true
 }

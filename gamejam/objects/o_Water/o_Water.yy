@@ -1,8 +1,8 @@
 {
-    "id": "88212fa6-d02b-459f-b0db-8c2c3d27e147",
+    "id": "41b16688-27f3-41fe-8c71-11d7b1d265fa",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "o_Out",
+    "name": "o_Water",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "97b6ff41-1a34-4958-b58e-1e4211156aa3",
+    "spriteId": "a2af6ec0-2267-451a-8e51-eccc6c91782e",
     "visible": true
 }
