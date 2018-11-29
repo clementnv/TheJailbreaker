@@ -159,11 +159,27 @@
             }
         },
         {
+            "Key": "328eccc5-b1ba-4daf-9d10-deb8fdebb2d7",
+            "Value": {
+                "id": "800073d2-bf62-4d35-ab74-87f442ecee58",
+                "resourcePath": "objects\\o_Enemy_Gun\\o_Enemy_Gun.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "368780f0-4fb4-4ba3-a724-b29b354cf389",
             "Value": {
                 "id": "6275cf3e-f288-4dea-a324-b6308e3254d2",
                 "resourcePath": "objects\\o_Floor\\o_Floor.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3ceb01bb-be3e-4670-baa2-5f777bb94d6a",
+            "Value": {
+                "id": "42618f77-49ff-4e3b-a10e-0fab12e25bdc",
+                "resourcePath": "sprites\\s_Policier_Walk_Gun\\s_Policier_Walk_Gun.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -263,6 +279,14 @@
             }
         },
         {
+            "Key": "6170cc8f-96a7-4d6a-b7f7-bd2e104e8e07",
+            "Value": {
+                "id": "79ecfb7c-e0ef-4ac4-ad6f-399b24e07819",
+                "resourcePath": "objects\\o_Bullet_Enemy\\o_Bullet_Enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "697f460c-58c6-4a49-9108-6e9c1bbe24de",
             "Value": {
                 "id": "277131a4-19eb-4c05-87d1-98f8cbd312d6",
@@ -351,14 +375,6 @@
             }
         },
         {
-            "Key": "945eb76d-e077-4664-a1fc-f67d2b343902",
-            "Value": {
-                "id": "75d27057-f3cd-4a1d-bd32-460213a66f15",
-                "resourcePath": "objects\\o_Enemy_Gun\\o_Enemy_Gun.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "949e3f79-c09d-4755-82a6-012ab2f95af8",
             "Value": {
                 "id": "77385590-7357-4aa3-a37b-8aa17249dedd",
@@ -396,6 +412,14 @@
                 "id": "e10a3a94-b26d-4478-a77c-18cdd7a07728",
                 "resourcePath": "views\\9eef65c4-0e36-49af-9077-22888d688442.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9f9990c7-8656-4b43-9689-d63e2e599d06",
+            "Value": {
+                "id": "b4c3056c-44aa-4d69-a505-9b057c971ad9",
+                "resourcePath": "sprites\\s_Bullet_Round\\s_Bullet_Round.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -540,6 +564,14 @@
                 "id": "460b7b08-5740-41da-8f41-fa9af96842e9",
                 "resourcePath": "objects\\o_Health_Bonus\\o_Health_Bonus.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "d2eef206-4578-4bf2-9ea4-ed49938777ac",
+            "Value": {
+                "id": "a588c679-bb2d-4c2d-9e05-152b8d301da4",
+                "resourcePath": "sprites\\s_Policier_Gun_Attack\\s_Policier_Gun_Attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
