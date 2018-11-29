@@ -109,11 +109,11 @@ if (state != "dead") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4B91F3EB
-/// @DnDArgument : "code" "if (state == "idle") {$(13_10)	sprite_index = s_Prisonnier_Idle;$(13_10)} else if (state == "walk") {$(13_10)	sprite_index = s_Prisonnier_Walk;$(13_10)} else if (state == "attack") {$(13_10)	sprite_index = s_Prisonnier_Mattraque_Attack;$(13_10)} else if (state == "dead") {$(13_10)	sprite_index = s_Prisonnier_Dead;$(13_10)}"
+/// @DnDArgument : "code" "if (state == "idle") {$(13_10)	sprite_index = s_Prisonnier_Idle;$(13_10)} else if (state == "walk") {$(13_10)	sprite_index = s_Prisonnier_Walk_Cut;$(13_10)} else if (state == "attack") {$(13_10)	sprite_index = s_Prisonnier_Mattraque_Attack;$(13_10)} else if (state == "dead") {$(13_10)	sprite_index = s_Prisonnier_Dead;$(13_10)}"
 if (state == "idle") {
 	sprite_index = s_Prisonnier_Idle;
 } else if (state == "walk") {
-	sprite_index = s_Prisonnier_Walk;
+	sprite_index = s_Prisonnier_Walk_Cut;
 } else if (state == "attack") {
 	sprite_index = s_Prisonnier_Mattraque_Attack;
 } else if (state == "dead") {

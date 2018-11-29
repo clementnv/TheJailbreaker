@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "0269288c-b518-4202-921f-004929c29767",
+            "Value": {
+                "id": "dc51c2b6-cbb4-43cd-943c-e31e64d573f8",
+                "resourcePath": "sprites\\s_Policier_Walk_Mattraque\\s_Policier_Walk_Mattraque.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "02a4f5cd-1c41-4ab5-bf36-f6e0a0e26520",
             "Value": {
                 "id": "ebfa45df-1417-4f37-8c7c-c9a61bdab1ae",
@@ -300,6 +308,14 @@
                 "id": "914936ef-eaaa-4640-ab00-80b2b9a99b6f",
                 "resourcePath": "views\\bdfb59ee-1014-4247-be83-8519cf548a53.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "c3a1bc47-02d9-4ef3-ab83-27b18400f676",
+            "Value": {
+                "id": "afb5fb99-c904-4784-bbc6-4d974bf6749a",
+                "resourcePath": "objects\\o_Enemy_Gun\\o_Enemy_Gun.yy",
+                "resourceType": "GMObject"
             }
         },
         {

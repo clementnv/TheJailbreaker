@@ -134,9 +134,9 @@ if (o_Player.state == "attack" && state != "dead") {
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3C221C78
-/// @DnDArgument : "code" "if (state == "walk") {$(13_10)	sprite_index = s_Policier_Walk_Mattraque;$(13_10)} else if(state == "idle") {$(13_10)	sprite_index = s_Policier_Idle;$(13_10)} else if(state == "attack") {$(13_10)	sprite_index = s_Policier_Mattraque_Attack;$(13_10)} else if(state == "touch") {$(13_10)	sprite_index = s_Policier_Touch;$(13_10)}"
+/// @DnDArgument : "code" "if (state == "walk") {$(13_10)	sprite_index = s_Policier_Walk;$(13_10)} else if(state == "idle") {$(13_10)	sprite_index = s_Policier_Idle;$(13_10)} else if(state == "attack") {$(13_10)	sprite_index = s_Policier_Mattraque_Attack;$(13_10)} else if(state == "touch") {$(13_10)	sprite_index = s_Policier_Touch;$(13_10)}"
 if (state == "walk") {
-	sprite_index = s_Policier_Walk_Mattraque;
+	sprite_index = s_Policier_Walk;
 } else if(state == "idle") {
 	sprite_index = s_Policier_Idle;
 } else if(state == "attack") {
