@@ -159,6 +159,14 @@
             }
         },
         {
+            "Key": "308d9b99-6a30-465d-a1c2-55900318c90c",
+            "Value": {
+                "id": "ebe1649d-91de-4cf3-905d-31b3b5cca87b",
+                "resourcePath": "rooms\\menu_control\\menu_control.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "31e62f3f-eeb5-48ea-ae57-6f91fbaac8e0",
             "Value": {
                 "id": "ab3e7e6d-0edd-4016-8747-3dce301e91f6",
@@ -300,6 +308,14 @@
                 "id": "1b430110-98ac-48b2-8418-541dc2e86e8a",
                 "resourcePath": "objects\\o_Enemy\\o_Enemy.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6063c749-d0c0-46e9-b2a4-d1b46b77f63a",
+            "Value": {
+                "id": "3a0216f1-bdac-4dd0-8061-ec28be7aec51",
+                "resourcePath": "sounds\\menu_background\\menu_background.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -551,6 +567,14 @@
             }
         },
         {
+            "Key": "c32e15ac-5e35-4b60-95a7-f324e5e6c085",
+            "Value": {
+                "id": "424fce2c-8799-45ff-b3fc-793fe19c7322",
+                "resourcePath": "objects\\o_Control\\o_Control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c49bda8c-3258-4f63-adfd-2ea697a36832",
             "Value": {
                 "id": "b53473fd-c8df-419c-82ba-567e1d9da72b",
@@ -623,6 +647,14 @@
             }
         },
         {
+            "Key": "d6d89824-8071-4da9-84c2-19511de1204a",
+            "Value": {
+                "id": "0564e14e-56d3-4a57-92ee-337f27b3c24e",
+                "resourcePath": "sounds\\menu_sound\\menu_sound.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "d710138c-e545-41a1-841a-9feae195f6c7",
             "Value": {
                 "id": "63eb01c4-889a-4257-afc4-50ceb5735e22",
@@ -659,6 +691,14 @@
             "Value": {
                 "id": "cbe288fd-67fe-4ef7-99e4-8750467fe313",
                 "resourcePath": "sprites\\s_Prisonnier_Gun_Attack\\s_Prisonnier_Gun_Attack.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e9b40a72-fd4f-4776-9548-690fea0e5900",
+            "Value": {
+                "id": "2e574592-9803-4ae8-b08d-f04c605c7126",
+                "resourcePath": "sprites\\s_Control\\s_Control.yy",
                 "resourceType": "GMSprite"
             }
         },
