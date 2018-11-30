@@ -583,6 +583,14 @@
             }
         },
         {
+            "Key": "b1ac23a2-5d51-42c3-8c20-a7d1829d6846",
+            "Value": {
+                "id": "d31bef63-ca26-40a7-882e-97a7e1482697",
+                "resourcePath": "sounds\\couteau_bruitage\\couteau_bruitage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "b5ae6520-f35a-496a-9da5-4bc1329f25bd",
             "Value": {
                 "id": "9e9e2602-ea48-4ded-9872-ed109279629b",
