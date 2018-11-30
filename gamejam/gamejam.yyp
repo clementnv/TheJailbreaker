@@ -63,6 +63,14 @@
             }
         },
         {
+            "Key": "0f008c93-2d68-47b2-82f7-6af93f730840",
+            "Value": {
+                "id": "f3cf5490-32bf-4a6c-bd47-aa8c750bad38",
+                "resourcePath": "rooms\\room_level_1\\room_level_1.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "1935fe1a-0edd-4dc3-b48b-800439acf972",
             "Value": {
                 "id": "404cc811-2663-493b-b797-863214417701",
@@ -194,7 +202,7 @@
             "Key": "3f79368b-5e40-4856-a221-0c2f0cbe86a2",
             "Value": {
                 "id": "536767dd-f3f9-47e9-b0a6-88aabefa5b3f",
-                "resourcePath": "rooms\\room0\\room0.yy",
+                "resourcePath": "rooms\\menu\\menu.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -306,7 +314,7 @@
             "Key": "71c5d0f3-939f-4a88-8584-c83a0afde427",
             "Value": {
                 "id": "bbf8fc87-c8ad-4e3d-892f-38f4dab8ca61",
-                "resourcePath": "rooms\\room1\\room1.yy",
+                "resourcePath": "rooms\\room_end\\room_end.yy",
                 "resourceType": "GMRoom"
             }
         },
@@ -635,6 +643,14 @@
             "Value": {
                 "id": "1016dbe0-48a1-4f5e-afe8-b205a3d59deb",
                 "resourcePath": "sprites\\s_Prisonnier_Walk_Gun\\s_Prisonnier_Walk_Gun.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f36e7d95-579c-405b-ab90-6c95202c9d10",
+            "Value": {
+                "id": "08771b06-a526-491b-8f42-277496a04fda",
+                "resourcePath": "sprites\\s_Gate_Out\\s_Gate_Out.yy",
                 "resourceType": "GMSprite"
             }
         },
