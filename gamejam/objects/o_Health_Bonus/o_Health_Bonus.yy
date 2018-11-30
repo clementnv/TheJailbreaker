@@ -4,7 +4,26 @@
     "mvc": "1.0",
     "name": "o_Health_Bonus",
     "eventList": [
-        
+        {
+            "id": "7bc0974e-872a-4efa-a0f4-036c36dd235f",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 0,
+            "m_owner": "d1ac0e0f-82c0-4b13-aac3-a003ed7b9a60"
+        },
+        {
+            "id": "9afdca99-3d29-437c-86dc-23899b24d8c0",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": true,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 3,
+            "m_owner": "d1ac0e0f-82c0-4b13-aac3-a003ed7b9a60"
+        }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
