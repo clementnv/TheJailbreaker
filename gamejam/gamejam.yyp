@@ -631,6 +631,14 @@
             }
         },
         {
+            "Key": "c2e24c57-7c20-483d-bfb1-af6bb47da4ce",
+            "Value": {
+                "id": "9a17fbe6-a6ba-44ba-9594-b9b1b12897ee",
+                "resourcePath": "sounds\\eau_bruitage\\eau_bruitage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "c32e15ac-5e35-4b60-95a7-f324e5e6c085",
             "Value": {
                 "id": "424fce2c-8799-45ff-b3fc-793fe19c7322",
