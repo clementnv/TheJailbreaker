@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "422f397c-d68a-434d-a446-7c8e1f013452",
+            "Value": {
+                "id": "8151f2ca-a870-4b5f-b8a4-237ccb86d873",
+                "resourcePath": "objects\\o_eau\\o_eau.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "4761ed77-d63b-45bf-9c19-963bedb1071f",
             "Value": {
                 "id": "d857242d-d18b-46d7-9027-1db841f47d9c",
