@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "5f635c83-3945-4edf-a24b-69e9be0ed95e",
+            "Value": {
+                "id": "9a52f179-748e-4bcb-9bbb-9bf1cdb8e686",
+                "resourcePath": "sounds\\game_sound_background\\game_sound_background.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "6063c749-d0c0-46e9-b2a4-d1b46b77f63a",
             "Value": {
                 "id": "3a0216f1-bdac-4dd0-8061-ec28be7aec51",
@@ -356,6 +364,14 @@
                 "id": "2088aa73-d456-4bde-a111-b2683a813e4e",
                 "resourcePath": "sprites\\porte\\porte.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7c1559ee-aba2-4c2d-9190-5168ef54d48d",
+            "Value": {
+                "id": "4092f00b-51e2-4580-9247-cc883da2ee54",
+                "resourcePath": "sounds\\tir_bruitage\\tir_bruitage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -692,6 +708,14 @@
                 "id": "cbe288fd-67fe-4ef7-99e4-8750467fe313",
                 "resourcePath": "sprites\\s_Prisonnier_Gun_Attack\\s_Prisonnier_Gun_Attack.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e99198d7-61d5-40a1-bae0-740affd0adf4",
+            "Value": {
+                "id": "86d925d6-ca00-4fe2-a7db-c71feb0cf4c4",
+                "resourcePath": "sounds\\mort_bruitage\\mort_bruitage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
