@@ -1,8 +1,8 @@
 {
-    "id": "e99198d7-61d5-40a1-bae0-740affd0adf4",
+    "id": "b1ac23a2-5d51-42c3-8c20-a7d1829d6846",
     "modelName": "GMSound",
     "mvc": "1.0",
-    "name": "mort_bruitage",
+    "name": "couteau_bruitage",
     "audioGroupGuid": "7b2c4976-1e09-44e5-8256-c527145e03bb",
     "bitDepth": 1,
     "bitRate": 128,
@@ -10,5 +10,5 @@
     "preload": false,
     "sampleRate": 44100,
     "type": 0,
-    "volume": 0.5
+    "volume": 1
 }
