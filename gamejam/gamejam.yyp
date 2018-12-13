@@ -143,6 +143,14 @@
             }
         },
         {
+            "Key": "293f5ef2-33bf-41ed-ba8d-190110596fc7",
+            "Value": {
+                "id": "6976b380-7056-420b-9fb4-c1bdc6e1590b",
+                "resourcePath": "sounds\\matraque_bruitage\\matraque_bruitage.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "2b1eff0b-2912-4a08-b722-bfb62e6dca40",
             "Value": {
                 "id": "401ede8b-586b-4dc8-ae7f-6d34c3bdbdde",
@@ -179,6 +187,14 @@
             "Value": {
                 "id": "3d5899de-dbfa-4468-be95-ae2e60717df1",
                 "resourcePath": "sprites\\s_Policier_Walk\\s_Policier_Walk.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2e826e97-49d9-448c-8c50-499ff01439b2",
+            "Value": {
+                "id": "ae8ff1ec-ecb5-4124-bcab-0024266a98e6",
+                "resourcePath": "sprites\\s_Prisonnier_Walk_Mattraque\\s_Prisonnier_Walk_Mattraque.yy",
                 "resourceType": "GMSprite"
             }
         },
