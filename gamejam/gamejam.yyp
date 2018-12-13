@@ -63,19 +63,19 @@
             }
         },
         {
+            "Key": "0c0c452b-d4e7-4e5b-8620-e8912fc58698",
+            "Value": {
+                "id": "f19dc1eb-90ec-4fa5-885e-406e739855b0",
+                "resourcePath": "sprites\\s_Mattraque\\s_Mattraque.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "0dd91558-b9d8-41b0-8da0-08842808ff30",
             "Value": {
                 "id": "49af1a5f-96fc-4bbb-beef-da59d6b0d702",
                 "resourcePath": "sprites\\mur1\\mur1.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "0f008c93-2d68-47b2-82f7-6af93f730840",
-            "Value": {
-                "id": "f3cf5490-32bf-4a6c-bd47-aa8c750bad38",
-                "resourcePath": "rooms\\room_level_1_Modif\\room_level_1_Modif.yy",
-                "resourceType": "GMRoom"
             }
         },
         {
@@ -140,6 +140,14 @@
                 "id": "8a2621b2-b618-4096-a8f1-c7e364a782d9",
                 "resourcePath": "sprites\\s_desk\\s_desk.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "2b1eff0b-2912-4a08-b722-bfb62e6dca40",
+            "Value": {
+                "id": "401ede8b-586b-4dc8-ae7f-6d34c3bdbdde",
+                "resourcePath": "sounds\\poing_bruitage\\poing_bruitage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -268,6 +276,14 @@
                 "id": "1f9063bf-721a-406d-a331-046958c9a4b4",
                 "resourcePath": "objects\\o_Paper\\o_Paper.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4c59df48-7049-427c-8871-daebe029a060",
+            "Value": {
+                "id": "322bea62-390a-402b-a134-2c20ddc5ab50",
+                "resourcePath": "sprites\\s_Prisonnier_Fist_Attack\\s_Prisonnier_Fist_Attack.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -463,6 +479,14 @@
             }
         },
         {
+            "Key": "8edca500-5727-4393-91e2-49feba66ef14",
+            "Value": {
+                "id": "023e5737-f0ca-4687-8aa7-d552e6a119b8",
+                "resourcePath": "objects\\o_Cut\\o_Cut.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "93a25a67-bc93-4b1b-9fae-16f2b04035eb",
             "Value": {
                 "id": "eb12b347-477c-470e-a963-fcd32c6dbe78",
@@ -508,6 +532,14 @@
                 "id": "f1b9663f-4518-460e-9772-3002a72a6726",
                 "resourcePath": "views\\9ae22393-1895-470c-b886-b13eeeffdefe.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "9bbe7080-9bd7-48d5-84c4-aac38c78c3c8",
+            "Value": {
+                "id": "855ba317-a9aa-4cfe-9ae6-b6b8bc61e118",
+                "resourcePath": "sounds\\coup_vide_bruitage\\coup_vide_bruitage.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -711,6 +743,14 @@
             }
         },
         {
+            "Key": "d11b03d5-225c-4421-9bf1-4da55b65ca91",
+            "Value": {
+                "id": "d1a6c0ec-3030-49d0-9a51-c4f49873369a",
+                "resourcePath": "sprites\\s_Cut\\s_Cut.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "d1ac0e0f-82c0-4b13-aac3-a003ed7b9a60",
             "Value": {
                 "id": "460b7b08-5740-41da-8f41-fa9af96842e9",
@@ -764,6 +804,14 @@
                 "id": "251fedb4-4f2c-44a0-90e4-d2bfc43bb652",
                 "resourcePath": "sprites\\s_desk_down\\s_desk_down.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e50172ee-4a3f-4438-a72d-39148ea3b7b4",
+            "Value": {
+                "id": "b65de234-8539-40f2-8b10-42b36776d9ff",
+                "resourcePath": "objects\\o_Mattraque\\o_Mattraque.yy",
+                "resourceType": "GMObject"
             }
         },
         {
